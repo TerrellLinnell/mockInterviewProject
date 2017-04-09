@@ -1,0 +1,228 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+/*=======================================
+            NavigationBar
+=======================================*/
+
+.NavigationBarFlexBox {
+  display: flex;
+  justify-content: center;
+  font-family: "Times New Roman", Times, serif;
+  padding-bottom: 20px;
+  background-color: #4682B4;
+  background-image: url("https://thumb7.shutterstock.com/display_pic_with_logo/2770528/293566211/stock-vector-rays-background-blue-293566211.jpg");
+  background-size: 100% 800%;
+  background-repeat: no-repeat;
+
+
+}
+
+.NavigationBarImage {
+  height: 75%;
+  width: 5%;
+  padding-right: 10px;
+  padding-top: 8px;
+}
+
+.NavText {
+  color: white;
+  font-size: 45px;
+  padding-top: 1px;
+  margin: 5px 0 0 0;
+}
+
+.NavbarUnderline {
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 1px solid rgba(255, 255, 255, .5);
+  width: 95%;
+}
+
+/*=======================================
+                 Header
+=======================================*/
+
+.AppHeaderFlexbox {
+  display: flex;
+  height: 400px;
+  background-image: url("https://previews.123rf.com/images/akz/akz1601/akz160100382/50408489-Young-man-with-shaving-cream-foam-on-half-of-face-having-fun-with-machete-large-knife-Handsome-guy-r-Stock-Photo.jpg");
+  background-size: 50% 100%;
+  background-size: 35% 100%;
+  background-repeat: no-repeat;
+}
+
+.HeaderText {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-shadow: inset 40px 40px 40px 40px blanchedalmond;
+  width: 100%;
+  margin-left: 35%;
+  padding-left: 2%;
+  padding-right: 9%;
+  background-color: blanchedalmond;
+}
+
+.ProductsButton {
+  background-color: #9ACD32;
+  border-radius: 50px;
+  border: 4px solid rgb(220, 220, 150);
+  height: 15%;
+  width: 70%;
+  color: white;
+  font-size: 30px;
+  margin: 0 0 20px 0;
+  background: linear-gradient(rgb(183, 206, 0), rgb(124, 156, 2));
+}
+
+.descriptionText {
+  font-size: 20px;
+  padding-bottom: 80px;
+}
+
+.Title {
+  font-size: 50px;
+  margin: 30px 0 0 0;
+}
+
+/*=======================================
+              Featured in
+=======================================*/
+
+.featuredOnFlexbox {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+}
+
+.featuredin {
+  padding-left: 2%;
+  font-size: 15px;
+  color: grey;
+}
+
+/*=======================================
+              MainBody
+=======================================*/
+
+.bodyFlexBox {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid grey;
+  margin: 40px 2% 40px 2%;
+}
+.leftBodyFlexbox {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  margin-bottom: 40px;
+}
+
+.leftBodyTitle {
+  margin: 20px 0 0 0;
+  color: rgb(0,85,150);
+}
+
+.leftBodyDetails {
+  margin: 0 0 0 0;
+  color: grey;
+  padding-bottom: 10px;
+}
+
+.rightBodyFlexbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 1px solid rgb(226, 236, 244, .5);
+  border-radius: 20px;
+  width: 30%;
+  padding-left: 1%;
+  background-color: rgb(226, 236, 244);
+  margin-bottom: 40px;
+}
+
+/*=======================================
+               Comments
+=======================================*/
+
+.CommentsFlexBox {
+  display: flex;
+  justify-content: center;
+  margin: 0 2% 40px 2%;
+}
+
+.LeftCommentFlexBox {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.commentImage {
+  height: 10%;
+  width: 6%;
+  margin-right: 1.5%;
+  margin-left: 2%;
+  border: 4px solid white;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px black;
+}
+
+.RightCommentFlexBox {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.commentText {
+  margin-right: 4%;
+  color: grey;
+  font-size: 20px;
+}
+
+.username {
+  text-decoration: underline;
+  margin-top:  0;
+}
+
+/*=======================================
+               Footer
+=======================================*/
+
+.footerFlexbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  background-color: rgb(0, 100, 144);
+}
+
+.FollowText {
+  align-self: center;
+  margin-top: 40px;
+  margin-bottom: 0;
+  font-size: 20px;
+}
+
+.liscenseText {
+  font-size: 10px;
+  align-self: center;
+  margin-top: 6%
+}
+.socialMediaIcons {
+  height: 10%;
+  width: 4%;
+  margin: 20px 1% 50px 1%;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-shadow: -5px -5px 5px black;
+}
+
+.iconsFlexbox {
+  display: flex;
+  justify-content: center;
+}
