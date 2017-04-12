@@ -49,7 +49,7 @@ body {
 
 .AppHeaderFlexbox {
   display: flex;
-  height: 400px;
+  height: 80%;
   background-image: url("https://previews.123rf.com/images/akz/akz1601/akz160100382/50408489-Young-man-with-shaving-cream-foam-on-half-of-face-having-fun-with-machete-large-knife-Handsome-guy-r-Stock-Photo.jpg");
   background-size: 50% 100%;
   background-size: 35% 100%;
@@ -60,7 +60,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  box-shadow: inset 40px 40px 40px 40px blanchedalmond;
+  box-shadow:blanchedalmond;
   width: 100%;
   margin-left: 35%;
   padding-left: 2%;
@@ -72,22 +72,21 @@ body {
   background-color: #9ACD32;
   border-radius: 50px;
   border: 4px solid rgb(220, 220, 150);
-  height: 15%;
-  width: 70%;
+  width: 65%;
   color: white;
-  font-size: 30px;
-  margin: 0 0 20px 0;
+  font-size: 160%;
+  margin: 0 0 2% 0;
   background: linear-gradient(rgb(183, 206, 0), rgb(124, 156, 2));
 }
 
 .descriptionText {
-  font-size: 20px;
-  padding-bottom: 80px;
+  font-size: 95%;
+  padding-bottom: 10%;
 }
 
 .Title {
-  font-size: 50px;
-  margin: 30px 0 0 0;
+  font-size: 218%;
+  margin: 5% 0 0 0;
 }
 
 /*=======================================
@@ -97,12 +96,12 @@ body {
 .featuredOnFlexbox {
   display: flex;
   justify-content: space-around;
-  font-size: 20px;
+  font-size: 130%;
 }
 
 .featuredin {
   padding-left: 2%;
-  font-size: 15px;
+  font-size: 80%;
   color: grey;
 }
 
@@ -114,24 +113,25 @@ body {
   display: flex;
   justify-content: space-around;
   border-bottom: 1px solid grey;
-  margin: 40px 2% 40px 2%;
+  margin: 5% 2% 5% 2%;
 }
 .leftBodyFlexbox {
   display: flex;
   flex-direction: column;
   width: 55%;
-  margin-bottom: 40px;
+  margin-bottom: 3%;
 }
 
 .leftBodyTitle {
-  margin: 20px 0 0 0;
+  margin: 5% 0 0 0;
   color: rgb(0,85,150);
+  font-size: 200%;
 }
 
 .leftBodyDetails {
   margin: 0 0 0 0;
   color: grey;
-  padding-bottom: 10px;
+  padding-bottom: 1%;
 }
 
 .rightBodyFlexbox {
@@ -143,7 +143,7 @@ body {
   width: 30%;
   padding-left: 1%;
   background-color: rgb(226, 236, 244);
-  margin-bottom: 40px;
+  margin-bottom: 1.5%;
 }
 
 /*=======================================
@@ -153,7 +153,7 @@ body {
 .CommentsFlexBox {
   display: flex;
   justify-content: center;
-  margin: 0 2% 40px 2%;
+  margin: 0 2% 4% 2%;
 }
 
 .LeftCommentFlexBox {
@@ -181,7 +181,7 @@ body {
 .commentText {
   margin-right: 4%;
   color: grey;
-  font-size: 20px;
+  font-size: 135%;
 }
 
 .username {
